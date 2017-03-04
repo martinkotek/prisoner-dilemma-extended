@@ -1,5 +1,5 @@
 SyncTeX Version:1
-Input:1:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.tex
+Input:1:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.tex
 Input:2:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamer.cls
 Input:3:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasercs.sty
 Input:4:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\beamerbasemodes.sty
@@ -128,26 +128,26 @@ Input:126:C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
 Input:127:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\ragged2e.sty
 Input:128:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everysel.sty
 Input:129:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\footmisc\footmisc.sty
-Input:130:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.aux
+Input:130:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.aux
 Input:131:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 Input:132:C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty
 Input:133:C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty
-Input:134:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.out
-Input:135:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.out
+Input:134:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.out
+Input:135:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.out
 Input:136:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-basic-dictionary\translator-basic-dictionary-English.dict
 Input:137:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-bibliography-dictionary\translator-bibliography-dictionary-English.dict
 Input:138:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-environment-dictionary\translator-environment-dictionary-English.dict
 Input:139:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-months-dictionary\translator-months-dictionary-English.dict
 Input:140:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-numbers-dictionary\translator-numbers-dictionary-English.dict
 Input:141:C:\Users\Martin\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dicts\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
-Input:142:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.nav
+Input:142:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.nav
 Output:pdf
 Magnification:1000
 Unit:1
 X Offset:0
 Y Offset:0
 Content:
-!13335
+!13230
 {1
 [1,17:4736286,17900937:17266942,13164651,0
 h1,17:4736286,4736286:0,0,0
@@ -365,12 +365,21 @@ g1,17:1864679,7509931
 (1,17:1864679,7509931:20138549,2965773,0
 (1,17:1864679,7509931:20138549,2965773,0
 [1,17:1864679,7509931:20138549,2965773,0
-(1,17:1864679,5723805:20138549,655359,0
-k1,17:10653289,5723805:8788610
-h1,17:10653289,5723805:0,0,0
-x1,17:13214618,5723805
-g1,17:13214618,5723805
-k1,17:22003228,5723805:8788610
+(1,17:1864679,5723805:20138549,655359,183500
+k1,17:4885594,5723805:3020915
+h1,17:4885594,5723805:0,0,0
+x1,17:8630492,5723805
+g1,17:8938507,5723805
+x1,17:12352343,5723805
+g1,17:12660358,5723805
+x1,17:14313481,5723805
+g1,17:14621496,5723805
+x1,17:17012983,5723805
+g1,17:17320998,5723805
+x1,17:17951228,5723805
+x1,17:18982314,5723805
+g1,17:18982314,5723805
+k1,17:22003228,5723805:3020914
 )
 (1,17:1864679,6846106:20138549,498346,139537
 k1,17:3394274,6846106:1529595
@@ -480,7 +489,7 @@ k1,17:22003227,17900937:20138548
 ]
 ]
 ]
-!7287
+!7495
 }1
 Input:143:C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
 Input:144:C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
@@ -4004,9 +4013,9 @@ k1,163:22003227,17900937:20138548
 ]
 !13055
 }7
-Input:146:C:\Users\Martin\Dropbox\Škola\CERGE II\Experimental Economics\otree\Beamer\doc.aux
-!104
+Input:146:C:\Users\Martin\oTree\prisoner_dilemma_extended\Beamer\doc.aux
+!83
 Postamble:
-Count:3044
-!27
+Count:3048
+!26
 Post scriptum:
