@@ -12,19 +12,19 @@ payoffs.
 
 
 class Constants(BaseConstants):
-    name_in_url = 'prisoner'
+    name_in_url = 'prisoner_dilemma_extended'
     players_per_group = 2
     num_rounds = 1
 
-    instructions_template = 'prisoner/Instructions.html'
+    instructions_template = 'prisoner_dilemma_extended/Instructions.html'
 
     # payoff if 1 player defects and the other cooperates""",
-    betray_payoff = c(300)
+    betray_payoff = c(25)
     betrayed_payoff = c(0)
 
     # payoff if both players cooperate or both defect
-    both_cooperate_payoff = c(200)
-    both_defect_payoff = c(100)
+    both_cooperate_payoff = c(20)
+    both_defect_payoff = c(5)
 
 
 class Subsession(BaseSubsession):
