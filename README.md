@@ -1,1 +1,1 @@
-# prisoner-dilemma-extended
+# prisoner_dilemma_extended
