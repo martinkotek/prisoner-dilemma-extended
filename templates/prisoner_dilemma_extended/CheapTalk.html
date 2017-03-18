@@ -1,0 +1,32 @@
+{% extends "global/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Your Choice
+{% endblock %}
+
+{% block styles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'global/matrix.css' %}" />
+
+    <style>
+        .highlight-row-on-hover:hover td {
+            background-color: #fcf8e3;
+        }
+
+    </style>
+
+{% endblock %}
+
+{% block content %}
+
+
+
+    {% formfield player.ct_upfront_amount with label="Amount paid to the other player in case of succesful cooperation:" %}
+    {% formfield player.ct_promised_amount with label="Amount promised to be paid to the other player in case of succesful cooperation (can be changed later):" %}
+    {% next_button %}
+
+
+
+
+
+{% endblock %}

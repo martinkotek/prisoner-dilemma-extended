@@ -36,14 +36,36 @@ class Group(BaseGroup):
 
 
 class Player(BasePlayer):
-    decision = models.CharField(
+    ct_upfront_amount = models.PositiveIntegerField(
+        min=0, max=Constants.both_cooperate_payoff/5,
+        doc="""Amount paid to the second player"""
+    )
+
+    ct_promised_amount = models.PositiveIntegerField(
+        min=0, max=Constants.both_cooperate_payoff,
+        doc="""Quantity of units to produce"""
+    )
+
+    ct_actual_amount = models.PositiveIntegerField(
+        min=0, max=Constants.both_cooperate_payoff,
+        doc="""Amount paid to the second player"""
+    )
+
+    pd_decision = models.CharField(
         choices=['Cooperate', 'Defect'],
         doc="""This player's decision""",
         widget=widgets.RadioSelect()
     )
 
+    def role(self):
+        if self.id_in_group == 1:
+            return 'player_1'
+        else:
+            return 'player_2'
+
     def other_player(self):
         return self.get_others_in_group()[0]
+
 
     def set_payoff(self):
 
@@ -60,5 +82,5 @@ class Player(BasePlayer):
                 }
         }
 
-        self.payoff = (points_matrix[self.decision]
-                       [self.other_player().decision])
+        self.payoff = (points_matrix[self.pd_decision]
+                       [self.other_player().pd_decision])

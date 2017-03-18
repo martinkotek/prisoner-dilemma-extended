@@ -19,6 +19,15 @@
 
 {% block content %}
 
+    {% if player_1 %}
+        <p>You pay <b>{{ct_upfront_amount}} point(s)</b> to the Player 2 in case of successful cooperation (guaranteed amount)</p>
+        <p>You have promised to pay <b>{{ct_promised_amount}} point(s)</b> to the Player 2 in case of successful cooperation (you can change it later on)</p>
+     {% else %}
+        <p>Player 1 pays you <b>{{ct_upfront_amount}} point(s)</b> in case of successful cooperation (guaranteed amount)</p>
+        <p>Player 1 has promised to pay <b>{{ct_promised_amount}} point(s)</b> to you in case of successful cooperation (the amount can be changed by Player 1 later on)</p>
+    {% endif %}
+
+
     <div class="form-group required">
         <table class="table table-bordered text-center" style="width: auto; margin: auto">
             <tr>
@@ -31,12 +40,12 @@
             </tr>
             <tr class="highlight-row-on-hover">
                 <th rowspan="2"><span class="rotate90">You</span></th>
-                <td><button name="decision" value="Cooperate" class="btn btn-primary btn-large">I will cooperate</button></td>
+                <td><button name="pd_decision" value="Cooperate" class="btn btn-primary btn-large">I will cooperate</button></td>
                 <td>{{Constants.both_cooperate_payoff}}, {{Constants.both_cooperate_payoff}}</td>
                 <td>{{ Constants.betrayed_payoff }}, {{Constants.betray_payoff}}</td>
             </tr>
             <tr class="highlight-row-on-hover">
-                <td><button name="decision" value="Defect" class="btn btn-primary btn-large">I will defect</button></td>
+                <td><button name="pd_decision" value="Defect" class="btn btn-primary btn-large">I will defect</button></td>
                 <td>{{Constants.betray_payoff}}, {{ Constants.betrayed_payoff }}</td>
                 <td>{{Constants.both_defect_payoff}}, {{Constants.both_defect_payoff}}</td>
             </tr>
